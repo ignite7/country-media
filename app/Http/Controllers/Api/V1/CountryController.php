@@ -28,6 +28,7 @@ final class CountryController
      *          in="query",
      *          description="Filter countries by country code (e.g., GB, NL, DE, FR, ES, IT, GR)",
      *          required=false,
+     *
      *          @OA\Schema(type="string", example="NL")
      *      ),
      *
