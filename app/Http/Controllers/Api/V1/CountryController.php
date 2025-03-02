@@ -23,6 +23,14 @@ final class CountryController
      *     summary="Get list of countries",
      *     description="Returns list of countries",
      *
+     *      @OA\Parameter(
+     *          name="countryCode",
+     *          in="query",
+     *          description="Filter countries by country code (e.g., GB, NL, DE, FR, ES, IT, GR)",
+     *          required=false,
+     *          @OA\Schema(type="string", example="NL")
+     *      ),
+     *
      *     @OA\Response(
      *         response=200,
      *         description="Successful operation",

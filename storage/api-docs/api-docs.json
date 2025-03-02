@@ -18,6 +18,18 @@
                 "summary": "Get list of countries",
                 "description": "Returns list of countries",
                 "operationId": "getCountriesList",
+                "parameters": [
+                    {
+                        "name": "countryCode",
+                        "in": "query",
+                        "description": "Filter countries by country code (e.g., GB, NL, DE, FR, ES, IT, GR)",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "example": "NL"
+                        }
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "Successful operation",
