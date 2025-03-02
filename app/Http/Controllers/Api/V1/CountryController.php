@@ -20,8 +20,7 @@ final class CountryController
      *     path="/countries",
      *     operationId="getCountriesList",
      *     tags={"Countries"},
-     *     summary="Get list of countries",
-     *     description="Returns list of countries",
+     *     description="Returns a list of countries with the latest 5 most popular videos",
      *
      *      @OA\Parameter(
      *          name="countryCode",
